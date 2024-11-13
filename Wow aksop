@@ -1,0 +1,202 @@
+
+package group.pkg3.maranan.lab.quiz;
+
+import java.util.Scanner;
+
+
+public class Group3MarananLabQuiz {
+
+    
+    public static void main(String[] args) {
+
+       String answer;
+        boolean tk = true;
+        
+        while (tk) {
+            
+            int result =0;
+        
+        
+        Scanner scanner; 
+        scanner = new Scanner(System.in);  
+        
+        System.out.println("QUIZ TIMEEEEEE");
+       
+        
+        
+        //Q1
+      
+        
+        System.out.println("1+1?");
+        
+        System.out.println("\nChoicessss:");
+        System.out.println("A. 2");
+        System.out.println("B. 5");
+        System.out.println("C. 8");
+        System.out.println("D. 12");
+      
+             
+        System.out.print("Enter your answer: ");
+        answer = scanner.nextLine();
+        
+        
+        if (answer.contains ("a") || answer.contains ("A")){
+            System.out.println("Your answer is correct");
+            result +=1;
+        }
+            
+        else{    
+            
+            System.out.println("YIKEESSSSS");
+            System.out.println("Incorrect Answer");
+          
+            System.out.println("The correct asnwer is: A ");
+            
+        }
+        
+        
+        //2Q
+       
+        System.out.println("******Second Question******");
+        
+        System.out.println("What is the term of interconnectedness in the world context ");
+        
+        System.out.println("options");
+        System.out.println("A. Brain drain");
+        System.out.println("B. Globalization");
+        System.out.println("C. Skill mismatch");
+        System.out.println("D. Global market");
+    
+             
+        System.out.print("Enter your answer: ");
+        answer = scanner.nextLine();
+        
+        
+        if (answer.contains ("b") || answer.contains ("B")){
+            System.out.println("Your answer is correct");
+            result +=1;
+        }
+            
+        else{    
+            
+            System.out.println("ENGGKKKKKKK");
+            System.out.println("Incorrect Answer");
+       
+            System.out.println("The correct asnwer is: B ");
+      
+        
+        }
+        
+        //3Q
+       
+        System.out.println("******Third Question******");
+        
+        System.out.println("What is the scientific name of Humans");
+        
+        System.out.println("Options");
+        System.out.println("A. Homo Halocenogenesis");
+        System.out.println("B. Homophobic");
+        System.out.println("C. Homosapiens");
+        System.out.println("D. Homophobia");
+        
+             
+        System.out.print("Enter your answer: ");
+        answer = scanner.nextLine();
+        
+        
+        if (answer.contains ("c") || answer.contains ("C")){
+            System.out.println("Your answer is correct");
+            result +=1;
+        }
+            
+        else{    
+            
+            System.out.println("ENGKKKKKKKKKKKKKK");
+            System.out.println("Incorrect Answer");
+         
+            System.out.println("The correct asnwer is: C ");
+           
+        
+        }
+        //4Q
+        
+        System.out.println("******Fourth Question******");
+        
+        System.out.println("What programming language made the creation of minecraft");
+        
+        System.out.println("OPTIONSZ:");
+        System.out.println("A. C++");
+        System.out.println("B. HTML");
+        System.out.println("C. C+");
+        System.out.println("D. JAVA");
+        
+             
+        System.out.print("Enter your answer: ");
+        answer = scanner.nextLine();
+        
+        
+        if (answer.contains ("d") || answer.contains ("D")){
+            System.out.println("Your answer is correct");
+            result +=1;
+        }
+            
+        else{    
+            
+            System.out.println("\n!!!!!!ENGKKKKK!!!!!!!");
+            System.out.println("Incorrect Answer");
+            System.out.println("---------------------------");
+            System.out.println("The correct asnwer is: D ");
+            System.out.println("---------------------------");
+        
+        }
+        //5Q
+      
+        System.out.println("******Last Question******");
+        
+        System.out.println("WHAT IS THE DEFINITION OF STI");
+        
+        System.out.println("OPTIONSZ:");
+        System.out.println("A. SUGBA TINAE OR INTESTINE");
+        System.out.println("B. Swiss science institute");
+        System.out.println("C. Sinugbang tilapia Itom");
+        System.out.println("D. Sweto sa tanang istorya");
+        System.out.println("E. Science technology Institute");
+             
+        System.out.print("Enter your answer: ");
+        answer = scanner.nextLine();
+        
+        
+        if (answer.contains ("e") || answer.contains ("E")){
+            System.out.println("Your answer is correct");
+            result +=1;
+        }
+            
+        else{    
+            
+            System.out.println("\n!!!!!!ENGKKKKK!!!!!!");
+            System.out.println("Incorrect Answer");
+            System.out.println("---------------------------");
+            System.out.println("The correct asnwer is: E ");
+            System.out.println("---------------------------");
+        
+        }
+        
+       
+        System.out.println("Congrats, ang imong score kay kuan: " + result + "/5 \n");
+        System.out.println("--------------------------------------------------");
+        System.out.println("\nDo you want to take the quiz again?\n");
+        System.out.print("(Y)yezzzzz or (N)no no no no: ");
+        String again = scanner.nextLine();
+        
+        if (again.equals("Y") || again.equals("y")){
+            tk = true;
+        }
+        
+        else{
+            tk = false;
+            System.out.println("Salamat sa pag tumar samong quiz");
+            }
+    
+    }
+    
+}
